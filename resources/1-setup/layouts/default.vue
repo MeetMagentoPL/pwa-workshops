@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import AlpacaHeader from '~/components/03-modules/header/Header.vue'
+  import AlpacaHeader from 'alpaca-components/components/03-modules/header/Header.vue'
 
   export default {
     components: {

@@ -7,9 +7,9 @@
 </template>
 
 <script>
-  import data from '~/data/catalog.json'
+  import data from 'alpaca-components/data/catalog.json'
 
-  import Catalog from '~/components/04-views/catalog/Catalog.vue'
+  import Catalog from 'alpaca-components/components/04-views/catalog/Catalog.vue'
 
   export default {
     components: {

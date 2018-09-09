@@ -6,9 +6,12 @@ export default {
   },
   css: [
     'normalize.css',
-    '~/assets/css/variables.css'
+    'alpaca-components/public/styles/variables.css'
   ],
   modules: [
     ['@nuxtjs/pwa']
-  ]
+  ],
+  build: {
+    transpile: ['alpaca-components']
+  }
 }

@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^2.5.0",
+    "alpaca-components": "^0.1.1",
     "normalize.css": "^8.0.0",
     "nuxt-edge": "^2.0.0-25592089.aeb33e0"
   }

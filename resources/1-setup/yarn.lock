@@ -831,6 +831,13 @@ ajv@^6.0.1, ajv@^6.1.0:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+alpaca-components@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/alpaca-components/-/alpaca-components-0.1.1.tgz#ecfd7500b953dfe88a7d236f9cdf6e96273aab67"
+  dependencies:
+    normalize.css "^8.0.0"
+    vue "^2.5.17"
+
 alphanum-sort@^1.0.0, alphanum-sort@^1.0.1, alphanum-sort@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"

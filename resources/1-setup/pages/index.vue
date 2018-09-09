@@ -7,8 +7,8 @@
 </template>
 
 <script>
-  import Container from '~/components/01-globals/container/Container.vue'
-  import Heading from '~/components/01-globals/typography/Heading.vue'
+  import Container from 'alpaca-components/components/01-globals/container/Container.vue'
+  import Heading from 'alpaca-components/components/01-globals/typography/Heading.vue'
 
   export default {
     components: {
