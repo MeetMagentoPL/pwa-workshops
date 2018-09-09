@@ -1,0 +1,12 @@
+{
+  "name": "pwa-workshops",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "nuxt-edge": "^2.0.0-25592089.aeb33e0"
+  }
+}
