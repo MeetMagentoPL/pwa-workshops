@@ -1,0 +1,46 @@
+query Catalog($categoryId: String) {
+  storeConfig {
+    base_media_url
+  }
+  products(
+    filter: {
+      category_id: {
+        eq: $categoryId
+      }
+    }
+  ) {
+    total_count
+    page_info {
+      page_size
+      current_page
+    }
+    items {
+      name
+      sku
+      image
+      small_image
+      thumbnail
+      swatch_image
+      url_key
+      price {
+        regularPrice {
+          amount {
+            value
+            currency
+          }
+        }
+      }
+      special_price
+    }
+    filters {
+      name
+      request_var
+      filter_items_count
+      filter_items {
+        label
+        value_string
+        items_count
+      }
+    }
+  }
+}
