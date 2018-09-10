@@ -10,15 +10,19 @@ export default {
   ],
   modules: [
     '@nuxtjs/pwa',
-    '@nuxtjs/apollo'
+    '@nuxtjs/apollo',
+    '@nuxtjs/proxy'
   ],
   apollo: {
     clientConfigs: {
       default: {
-        httpEndpoint: 'http://localhost:4000'
+        httpEndpoint: 'http://localhost:3000/graphql'
       }
     }
   },
+  proxy: [
+    'http://magento-2.3.test/graphql'
+  ],
   build: {
     transpile: ['alpaca-components']
   }

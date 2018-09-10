@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@nuxtjs/apollo": "github:nuxt-community/apollo-module#vue-apollo-upgrade-beta-21",
+    "@nuxtjs/proxy": "^1.2.4",
     "@nuxtjs/pwa": "^2.5.0",
     "alpaca-components": "^0.1.1",
     "normalize.css": "^8.0.0",
