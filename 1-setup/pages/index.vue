@@ -3,6 +3,7 @@
     <heading level="1">
       Hello Meet Magento!
     </heading>
+    <nuxt-link to="/cart">Cart</nuxt-link>
   </container>
 </template>
 
